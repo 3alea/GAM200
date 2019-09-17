@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>3095</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'font-&gt;ConfigData'. </DESCRIPTION>
+    <FUNCTION>ImGui::ShowStyleEditor</FUNCTION>
+    <DECORATED>?ShowStyleEditor@ImGui@@YAXPAUImGuiStyle@@@Z</DECORATED>
+    <FUNCLINE>2935</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2938</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2939</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2942</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2943</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2945</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2946</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2949</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2951</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2953</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2956</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2958</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2958</LINE>
+        <COLUMN>79</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2959</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2960</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2960</LINE>
+        <COLUMN>77</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2961</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2962</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2962</LINE>
+        <COLUMN>77</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2965</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2967</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2968</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2970</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2971</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2973</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2975</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>2977</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3012</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3070</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3072</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3073</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3074</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3075</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3076</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3076</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3078</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3079</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3080</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'font-&gt;ConfigData' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3081</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3081</LINE>
+        <COLUMN>57</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'SmallButton("Set as default")' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3082</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'font_details_opened')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3084</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3085</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3086</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3087</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3088</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3088</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3089</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3090</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3091</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3092</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3093</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3094</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3094</LINE>
+        <COLUMN>52</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'config_i&lt;font-&gt;ConfigDataCount')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3095</LINE>
+        <COLUMN>46</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'font-&gt;ConfigData' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>3307</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*History[](i)'.</DESCRIPTION>
+    <FUNCTION>ExampleAppConsole::{dtor}</FUNCTION>
+    <DECORATED>??1ExampleAppConsole@@QAE@XZ</DECORATED>
+    <FUNCLINE>3303</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3305</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3306</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3306</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3307</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3306</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3306</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3307</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*History[](i)' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3307</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*History[](i)' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>3319</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*Items[](i)'.</DESCRIPTION>
+    <FUNCTION>ExampleAppConsole::ClearLog</FUNCTION>
+    <DECORATED>?ClearLog@ExampleAppConsole@@QAEXXZ</DECORATED>
+    <FUNCLINE>3316</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3318</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3318</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3319</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3318</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3318</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3319</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*Items[](i)' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>3319</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*Items[](i)' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

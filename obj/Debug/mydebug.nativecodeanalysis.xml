@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+      <FILENAME>mydebug.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pLogFile' could be '0':  this does not adhere to the specification for the function 'fprintf_s'. </DESCRIPTION>
+    <FUNCTION>MyLogPrintFunction</FUNCTION>
+    <DECORATED>?MyLogPrintFunction@@YAXPBDZZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLogFile' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pLogFile' is an In/Out argument to 'fprintf_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:869)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLogFile' should not be NULL, because this is not consistent with the SAL annotation on 'fprintf_s'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+      <FILENAME>mydebug.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pLogFile' could be '0':  this does not adhere to the specification for the function 'fclose'. See line 62 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>MyLogPrintFunction</FUNCTION>
+    <DECORATED>?MyLogPrintFunction@@YAXPBDZZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLogFile' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pLogFile' is an In/Out argument to 'fprintf_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:869)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pLogFile' is an Input to 'fclose' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:144)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLogFile' should not be NULL, because this is not consistent with the SAL annotation on 'fclose'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+      <FILENAME>mydebug.cpp</FILENAME>
+      <LINE>253</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(5) when some signed type is required in call to 'StringCchPrintfA'.</DESCRIPTION>
+    <FUNCTION>Win32ShowLastError</FUNCTION>
+    <DECORATED>?Win32ShowLastError@@YAXPBD@Z</DECORATED>
+    <FUNCLINE>231</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+      <FILENAME>mydebug.cpp</FILENAME>
+      <LINE>253</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6067</DEFECTCODE>
+    <DESCRIPTION>_Param_(6) in call to 'StringCchPrintfA' must be the address of a string. Actual type: 'void *'.</DESCRIPTION>
+    <FUNCTION>Win32ShowLastError</FUNCTION>
+    <DECORATED>?Win32ShowLastError@@YAXPBD@Z</DECORATED>
+    <FUNCLINE>231</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+      <FILENAME>mydebug.cpp</FILENAME>
+      <LINE>253</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>'lpDisplayBuf' could be '0', and is a copy of the value found in 'LocalAlloc()`251':  this does not adhere to the specification for the function 'LocalSize'. </DESCRIPTION>
+    <FUNCTION>Win32ShowLastError</FUNCTION>
+    <DECORATED>?Win32ShowLastError@@YAXPBD@Z</DECORATED>
+    <FUNCLINE>231</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\debug\</FILEPATH>
+        <FILENAME>mydebug.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

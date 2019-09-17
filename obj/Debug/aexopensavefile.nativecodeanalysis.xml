@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+      <FILENAME>aexopensavefile.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'rgSpec':  the writable size is 'extension_list.public: unsigned int __thiscall std::list&lt;class std::basic_string&lt;wchar_t,struct std::char_traits&lt;wchar_t&gt;,class std::allocator&lt;wchar_t&gt; &gt;,class std::allocator&lt;class std::basic_string&lt;wchar_t,struct std::char_traits&lt;wchar_t&gt;,class std::allocator&lt;wchar_t&gt; &gt; &gt; &gt;::size(void)const ()*8' bytes, but '16' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AEX::SetDialogFileTypes</FUNCTION>
+    <DECORATED>?SetDialogFileTypes@AEX@@YAJPAUIFileDialog@@ABV?$list@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@AAPAU_COMDLG_FILTERSPEC@@I@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '(bool)=it!=(*), (), (bool)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '(bool)=it!=(*), (), (bool)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexopensavefile.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'rgSpec[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8725</LINE>
+      <COLUMN>110</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_float</FUNCTION>
+    <DECORATED>?dump_float@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXN@Z</DECORATED>
+    <FUNCLINE>8710</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8725</LINE>
+      <COLUMN>170</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_float</FUNCTION>
+    <DECORATED>?dump_float@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXN@Z</DECORATED>
+    <FUNCLINE>8710</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8726</LINE>
+      <COLUMN>110</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_float</FUNCTION>
+    <DECORATED>?dump_float@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXN@Z</DECORATED>
+    <FUNCLINE>8710</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8726</LINE>
+      <COLUMN>170</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_float</FUNCTION>
+    <DECORATED>?dump_float@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXN@Z</DECORATED>
+    <FUNCLINE>8710</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8587</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>8514</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\json\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>8593</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>8514</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,48 @@
+{
+    "Test Level": {
+        "gameObject_list": {
+            "Name": "GameObject",
+            "comps": [
+                {
+                    "__type": "AEX::TransformComp",
+                    "local": {
+                        "rotation": 3123123.0,
+                        "scale": {
+                            "x": 12312.0,
+                            "y": 1.0
+                        },
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "translationZ": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "__type": "AEX::RigidBody",
+                    "angularVelocity": 0.0,
+                    "gravity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "linearDrag": 0.9900000095367432,
+                    "mass": 1.0,
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                },
+                {
+                    "__type": "AEX::Collider",
+                    "collisionShape": 4,
+                    "dynamicState": 0,
+                    "isGhost": true
+                }
+            ]
+        }
+    }
+}

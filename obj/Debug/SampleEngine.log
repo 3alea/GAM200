@@ -1,0 +1,10 @@
+﻿  AEXGameObject.cpp
+c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\composition\aexgameobject.h(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\composition\aexgameobject.cpp(31): warning C4101: 'id_str': unreferenced local variable
+  SampleEngine.vcxproj -> C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\bin\Debug\EngineDemo.exe
+  SampleEngine.vcxproj -> C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\bin\Debug\EngineDemo.pdb (Full PDB)
+  C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\extern\aexmath\lib\aexmath_d.dll -> C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\bin\Debug\aexmath_d.dll
+  1 archivo(s) copiado(s)
+  C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\extern\GL\glew32d.dll -> C:\Users\3alea\Desktop\DigiPen\GAM200 Engine 3\bin\Debug\glew32d.dll
+  1 archivo(s) copiado(s)

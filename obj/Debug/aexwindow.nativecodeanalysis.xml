@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+      <FILENAME>aexwindow.cpp</FILENAME>
+      <LINE>215</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'hWindowHandle' could be '0':  this does not adhere to the specification for the function 'ShowWindow'. </DESCRIPTION>
+    <FUNCTION>AEX::Window::{ctor}</FUNCTION>
+    <DECORATED>??0Window@AEX@@QAE@PBDIIPAUHINSTANCE__@@HPAUHWND__@@@Z</DECORATED>
+    <FUNCLINE>199</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>206</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>208</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\src\engine\platform\</FILEPATH>
+        <FILENAME>aexwindow.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hWindowHandle' should not be NULL, because this is not consistent with the SAL annotation on 'ShowWindow'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

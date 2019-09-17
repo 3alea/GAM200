@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>1891</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'data'. </DESCRIPTION>
+    <FUNCTION>stbi__jpeg_decode_block_prog_ac</FUNCTION>
+    <DECORATED>?stbi__jpeg_decode_block_prog_ac@@YAHPAUstbi__jpeg@@QAFPAUstbi__huffman@@PAF@Z</DECORATED>
+    <FUNCLINE>1795</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1797</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1798</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1800</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1846</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1848</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1862</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1864</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1864</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1865</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1866</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1867</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1868</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1869</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1881</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1883</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1886</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1890</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1891</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1892</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'data' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1901</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'r==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1905</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1890</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'k&lt;=j-&gt;spec_end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>1891</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'data' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3393</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'coutput'.</DESCRIPTION>
+    <FUNCTION>load_jpeg_image</FUNCTION>
+    <DECORATED>?load_jpeg_image@@YAPAEPAUstbi__jpeg@@PAH11H@Z</DECORATED>
+    <FUNCLINE>3311</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3313</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3313</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3314</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3317</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3320</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3323</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3325</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3328</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3332</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3333</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3333</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3334</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3335</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'coutput' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3337</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3339</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3339</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'k&lt;decode_n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3362</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3363</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!output' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3366</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3366</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;z-&gt;s-&gt;img_y')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3368</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3368</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'k&lt;decode_n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3382</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'n&gt;=3' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3393</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'coutput' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3408</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18208' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_load</FUNCTION>
+    <DECORATED>?stbi__jpeg_load@@YAPAEPAUstbi__context@@PAH11H@Z</DECORATED>
+    <FUNCLINE>3408</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3416</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18196' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_test</FUNCTION>
+    <DECORATED>?stbi__jpeg_test@@YAHPAUstbi__context@@@Z</DECORATED>
+    <FUNCLINE>3416</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3439</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18204' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_info</FUNCTION>
+    <DECORATED>?stbi__jpeg_info@@YAHPAUstbi__context@@PAH11@Z</DECORATED>
+    <FUNCLINE>3439</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3714</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'lencodes'.</DESCRIPTION>
+    <FUNCTION>stbi__compute_huffman_codes</FUNCTION>
+    <DECORATED>?stbi__compute_huffman_codes@@YAHPAUstbi__zbuf@@@Z</DECORATED>
+    <FUNCLINE>3687</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3689</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3690</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3691</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lencodes' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3692</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3693</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3693</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3695</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3696</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3697</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3699</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3700</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3700</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3704</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3706</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3707</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'n&lt;hlit+hdist')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3708</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3709</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'c&lt;0||c&gt;=19' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3710</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'c&lt;16' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3712</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'c==16')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3713</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3714</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lencodes' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3714</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'lencodes':  the readable size is '455' bytes, but '-1' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbi__compute_huffman_codes</FUNCTION>
+    <DECORATED>?stbi__compute_huffman_codes@@YAHPAUstbi__zbuf@@@Z</DECORATED>
+    <FUNCLINE>3687</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3689</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3690</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3691</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lencodes' is an array of 455 elements (455 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3692</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3693</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3693</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3695</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3696</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3697</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3699</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3700</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3700</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3704</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3706</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3707</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'n&lt;hlit+hdist')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3708</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3709</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'c&lt;0||c&gt;=19' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3710</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'c&lt;16' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3712</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'c==16')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3713</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3714</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'lencodes[-1]', (readable range is 0 to 454)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>5647</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18532' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__gif_info_raw</FUNCTION>
+    <DECORATED>?stbi__gif_info_raw@@YAHPAUstbi__context@@PAH11@Z</DECORATED>
+    <FUNCLINE>5647</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\3alea\desktop\digipen\gam200 engine 3\extern\stb\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>5905</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18540' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__gif_load</FUNCTION>
+    <DECORATED>?stbi__gif_load@@YAPAEPAUstbi__context@@PAH11H@Z</DECORATED>
+    <FUNCLINE>5905</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

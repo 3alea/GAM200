@@ -1,0 +1,29 @@
+{
+    "array_val": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "complex_val": {
+        "PI": 3.1415927410125732
+    },
+    "hI": 3.1415927410125732,
+    "hello": "world",
+    "mixed_array_val": [
+        0,
+        "hello",
+        2,
+        "hello",
+        4
+    ],
+    "pI": 3.1415927410125732,
+    "string_array": [
+        "ff",
+        "aa",
+        "zz",
+        "bb"
+    ],
+    "test": "hahahah"
+}
